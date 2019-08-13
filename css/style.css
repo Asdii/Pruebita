@@ -1,3 +1,13 @@
 canvas{
   margin: -8px;
 }
+
+body{
+  background-color:#323232;
+}
+
+.loginContenedor{
+  margin-right:384px;
+  margin-top:200px;
+  background-color: gray;
+}
