@@ -4,6 +4,8 @@ body {
 
 div.relative {
   position: absolute;
+  top: 0;
+  left: 0;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -16,8 +18,8 @@ div.absolute {
   width: 300px;
   height: 500px;
   border: 3px solid #73AD21;
-  left:384px;
-  top:50px;
+  left:491px;
+  top:70px;
 }
 
 #animacion {
