@@ -49,6 +49,7 @@ class Flock {
 
 class Boid {
 
+  PImage gato = loadImage("gato.png");
   PVector position;
   PVector velocity;
   PVector acceleration;
@@ -133,17 +134,21 @@ class Boid {
     float theta = velocity.heading2D() + radians(90);
     // heading2D() above is now heading() but leaving old syntax until Processing.js catches up
 
-    fill(200, 100);
+    /*fill(200, 100);
     stroke(20);
-    pushMatrix();
+    pushMatrix();*/
+    
     translate(position.x, position.y);
+    image(gato, position.x, position.y);
     rotate(theta);
+    /*
     beginShape(TRIANGLES);
     vertex(0, -r*2);
     vertex(-r, r*2);
     vertex(r, r*2);
     endShape();
     popMatrix();
+    */
   }
 
   // Wraparound
