@@ -139,6 +139,8 @@ class Boid {
     rotate(theta);
     image(gato);
     
+    noStroke();
+    noFill();
     beginShape(TRIANGLES);
     vertex(0, -r*2);
     vertex(-r, r*2);
