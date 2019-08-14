@@ -2,24 +2,22 @@ body {
   background-color: #323232;
 }
 
-.loginContenedor {
-  margin-right: 384px;
-  margin-top: 200px;
-}
-
 div.relative {
-  position: relative;
+  position: absolute;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
-  border: 3px solid #73AD21;
 }
 
 div.absolute {
   position: absolute;
   background-color: #73AD21;
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 500px;
   border: 3px solid #73AD21;
+  left:384px;
+  top:50px;
 }
 
 #animacion {
