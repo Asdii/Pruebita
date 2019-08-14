@@ -20,6 +20,8 @@ div.absolute {
   border: 3px solid #73AD21;
   left:491px;
   top:70px;
+  opacity: 0.6;
+  border-radius: 15px 50px;
 }
 
 #animacion {
