@@ -1,7 +1,7 @@
 Flock flock;
 
 void setup() {
-  size(width, height);
+  size(window.innerWidth, window.innerHeight);
   flock = new Flock();
   // Add an initial set of boids into the system
   for (int i = 0; i < 150; i++) {
