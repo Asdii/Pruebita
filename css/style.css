@@ -3,20 +3,17 @@ canvas{
 }
 
 body{
-<<<<<<< HEAD
   background-color:#323232;
 }
 
 .loginContenedor{
   margin-right:384px;
   margin-top:200px;
-=======
-  background-color:"#323232";
+  background-color:#323232;
 }
 
 .loginContenedor{
   margin-right:384;
   margin-top:200;
->>>>>>> 1f3e13e323a356dff04f9012dac2b7ea23658f25
   background-color: gray;
 }
