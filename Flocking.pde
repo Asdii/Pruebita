@@ -134,9 +134,18 @@ class Boid {
     float theta = velocity.heading2D() + radians(90);
     // heading2D() above is now heading() but leaving old syntax until Processing.js catches up
 
+    pushMatrix();
     translate(position.x, position.y);
     rotate(theta);
     image(gato);
+    
+    beginShape(TRIANGLES);
+    vertex(0, -r*2);
+    vertex(-r, r*2);
+    vertex(r, r*2);
+    endShape();
+    popMatrix();
+    
   }
 
   // Wraparound
