@@ -137,10 +137,9 @@ class Boid {
     pushMatrix();
     translate(position.x, position.y);
     rotate(theta);
-    image(gato);
     
-    noStroke();
-    noFill();
+    fill(96, 55, 179);
+    stroke(96, 55, 179);
     beginShape(TRIANGLES);
     vertex(0, -r*2);
     vertex(-r, r*2);
