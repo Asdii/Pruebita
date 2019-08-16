@@ -15,14 +15,13 @@ div.relative {
 
 div.absolute {
   position: absolute;
-  background-color: #73AD21;
+  background-color: red;
   width: 300px;
-  height: 500px;
-  border: 3px solid #73AD21;
+  height: 300px;
   left:491px;
   top:70px;
   opacity: 0.6;
-  border-radius: 15px 50px;
+  border-radius: 15px;
   box-shadow: 10px 10px 5px grey;
 }
 
@@ -31,5 +30,32 @@ div.absolute {
   padding: 0;
   width: 100%;
   height: 100%;
+}
 
+#buttonIniciarSesion{
+  box-shadow: 2px 2px 2px;
+  position: absolute;
+  top:240px;
+  left:100px;
+  color: black;
+  background-color: #f0ad4e;
+  border-color: #eea236
+}
+
+#inputUsuario{
+  box-shadow: 2px 2px 2px ;
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  top:100px;
+  left:25px;
+}
+
+#inputContrasena{
+  box-shadow: 2px 2px 2px ;
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  top:150px;
+  left:25px;
 }
