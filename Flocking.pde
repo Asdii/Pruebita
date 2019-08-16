@@ -5,7 +5,7 @@ void setup() {
   flock = new Flock();
   // Add an initial set of boids into the system
   for (int i = 0; i < 150; i++) {
-    flock.addBoid(new Boid(width/2,height/2));
+    flock.addBoid(new Boid(random(0, width),random(0, height)));
   }
 }
 
@@ -68,9 +68,9 @@ class Boid {
     velocity = new PVector(cos(angle), sin(angle));
 
     position = new PVector(x, y);
-    r = 1.0;
-    maxspeed = 3;
-    maxforce = 0.04;
+    r = 4.0;
+    maxspeed = 2;
+    maxforce = 0.06;
   }
 
   void run(ArrayList<Boid> boids) {
