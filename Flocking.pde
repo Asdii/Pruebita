@@ -68,9 +68,9 @@ class Boid {
     velocity = new PVector(cos(angle), sin(angle));
 
     position = new PVector(x, y);
-    r = 2.0;
-    maxspeed = 2;
-    maxforce = 0.03;
+    r = 1.0;
+    maxspeed = 3;
+    maxforce = 0.04;
   }
 
   void run(ArrayList<Boid> boids) {
@@ -138,8 +138,8 @@ class Boid {
     translate(position.x, position.y);
     rotate(theta);
     
-    fill(96, 55, 179);
-    stroke(96, 55, 179);
+    fill(156, 61, 61);
+    stroke(156, 61, 61);
     beginShape(TRIANGLES);
     vertex(0, -r*2);
     vertex(-r, r*2);
