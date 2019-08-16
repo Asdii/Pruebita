@@ -18,8 +18,8 @@ div.absolute {
   background-color: red;
   width: 300px;
   height: 300px;
-  left:491px;
-  top:70px;
+  left:50%;
+  top:50%;
   opacity: 0.6;
   border-radius: 15px;
   box-shadow: 10px 10px 5px grey;
